@@ -17,6 +17,19 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Joseph Duffy's Blog",
+        short_name: "Joseph Duffy's Blog",
+        start_url: "/",
+        background_color: "#fcfcfc",
+        theme_color: "#fcfcfc",
+        display: "minimal-ui",
+        // TODO: Add icon
+        // icon: "src/images/icon.png",
+      },
+    },
+    {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [{
