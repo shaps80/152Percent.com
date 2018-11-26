@@ -20,7 +20,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "Joseph Duffy's Blog",
-        short_name: "Joseph Duffy's Blog",
+        short_name: "Joseph Duffy",
         start_url: "/",
         background_color: "#fcfcfc",
         theme_color: "#fcfcfc",
