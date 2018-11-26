@@ -13,7 +13,6 @@ interface PageTemplateProps {
         description: string
         author: {
           name: string
-          url: string
         }
       }
     }
@@ -48,7 +47,6 @@ export const query = graphql`
         description
         author {
           name
-          url
         }
       }
     }
