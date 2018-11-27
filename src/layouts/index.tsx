@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import "modern-normalize"
 import "../styles/normalize"
+import favicon from "../images/favicon.png"
 
 import Header from "../components/Header"
 import LayoutRoot from "../components/LayoutRoot"
@@ -46,6 +47,7 @@ const IndexLayout: React.SFC = ({ children }) => (
           ]}
         >
           <html lang="en-GB" />
+          <link rel="shortcut icon" type="image/png" href={favicon} />
         </Helmet>
         <Header title={data.site.siteMetadata.title} />
         <LayoutMain>{children}</LayoutMain>

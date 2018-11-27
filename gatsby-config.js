@@ -25,8 +25,7 @@ module.exports = {
         background_color: "#fcfcfc",
         theme_color: "#fcfcfc",
         display: "minimal-ui",
-        // TODO: Add icon
-        // icon: "src/images/icon.png",
+        icon: "src/images/favicon.png",
       },
     },
     {
