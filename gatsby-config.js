@@ -58,5 +58,19 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-offline",
+    {
+      resolve: "gatsby-plugin-netlify",
+      options: {
+        headers: {
+          "/*.js": [
+            "Cache-Control: public, max-age=31536000, immutable",
+          ],
+          "/*.css": [
+            "Cache-Control: public, max-age=31536000, immutable",
+          ]
+        },
+      },
+    },
+    "gatsby-plugin-netlify-cache",
   ],
 }
