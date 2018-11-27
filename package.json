@@ -1,22 +1,16 @@
 {
-  "name": "gatsby-starter-typescript-plus",
-  "description": "A starter kit for TypeScript-based Gatsby projects with sensible defaults.",
+  "name": "josephduffy-co-uk",
+  "description": "josephduffy.co.uk",
   "version": "1.0.0",
   "private": true,
-  "author": "Resi Respati <resir014@gmail.com>",
-  "keywords": [
-    "gatsby"
-  ],
+  "author": "Joseph Duffy",
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
+    "develop": "gatsby develop",
     "build": "gatsby build",
     "clean": "rimraf public",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "dev": "gatsby develop",
     "format": "prettier --write \"src/**/*.{ts,tsx,md}\" \"gatsby-*.js\"",
     "lint": "tslint 'src/**/*.{ts,tsx}' -p tsconfig.json",
-    "start": "npm run dev",
     "test": "npm run type-check && npm run lint",
     "type-check": "tsc"
   },

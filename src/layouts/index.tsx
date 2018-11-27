@@ -40,10 +40,6 @@ const IndexLayout: React.SFC = ({ children }) => (
               name: "description",
               content: data.site.siteMetadata.description,
             },
-            {
-              name: "keywords",
-              content: "gatsbyjs, gatsby, javascript, sample, something",
-            },
           ]}
         >
           <html lang="en-GB" />
