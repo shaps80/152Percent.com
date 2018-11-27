@@ -1,14 +1,10 @@
 {
-  "name": "gatsby-starter-typescript-plus",
-  "description": "A starter kit for TypeScript-based Gatsby projects with sensible defaults.",
+  "name": "josephduffy-co-uk",
+  "description": "josephduffy.co.uk",
   "version": "1.0.0",
   "private": true,
-  "author": "Resi Respati <resir014@gmail.com>",
-  "keywords": [
-    "gatsby"
-  ],
+  "author": "Joseph Duffy",
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "clean": "rimraf public",
