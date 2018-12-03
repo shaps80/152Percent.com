@@ -2,11 +2,11 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Joseph Duffy's Blog",
-    description: "Blog posts created by Joseph Duffy, covering tech, music, and random thoughts",
-    siteUrl: "https://josephduffy.co.uk",
+    title: "Shaps Better Blog",
+    description: "Blog posts created by Shaps, covering tech, music, and random thoughts",
+    siteUrl: "https://shaps.me",
     author: {
-      name: "Joseph Duffy",
+      name: "Shaps",
     },
   },
   plugins: [{
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Joseph Duffy's Blog",
-        short_name: "Joseph Duffy",
+        name: "Shaps Better Blog",
+        short_name: "Shaps",
         start_url: "/",
         background_color: "#fcfcfc",
         theme_color: "#fcfcfc",
